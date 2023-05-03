@@ -1,2 +1,55 @@
+/* Set default font and background color */
 body {
+  font-family: Arial, sans-serif;
+  background-color: #F7F7F7;
+}
+
+/* Set header styles */
+header {
+  background-color: #333;
+  color: #FFF;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Set main styles */
+main {
+  margin: 2em auto;
+  max-width: 960px;
+}
+
+/* Set section styles */
+section {
+  margin: 2em 0;
+  padding: 1em;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #CCC;
+}
+
+/* Set button styles */
+.button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* Set responsive styles */
+@media screen and (max-width: 600px) {
+  /* Adjust header styles for small screens */
+  header {
+    padding: 0.5em;
+  }
+  /* Adjust main styles for small screens */
+  main {
+    margin: 1em auto;
+  }
+  /* Adjust section styles for small screens */
+  section {
+    margin: 1em 0;
+    padding: 0.5em;
+  }
 }
